@@ -36,6 +36,7 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto; 
     width: 300px;
+    justify-items: center;
 }
  
 .logo{
@@ -59,6 +60,32 @@ body{
     margin-bottom: 35px;
     text-align: center;        
 }        
+
+.email-image{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.email-image img{
+    width: 80px;
+}
+
+.resend{
+    font-size: var(--sm);
+}
+
+.resend span {
+    color: var(--very-light-pink);
+}
+.resend a {
+    color: var(--hospital-green);
+    text-decoration: none;
+}
 
 .primary-button {
     background-color: var(--hospital-green);
@@ -84,10 +111,20 @@ display: block;
         <div class="form-container">
             <img src="/logo/logo_yard_sale.svg" alt="logo" class="logo ">
             
-            <h1 class="title">Create a new password</h1>
-            <p class="subtitle">Enter a new password for you account</p>
+            <h1 class="title">Email has been sent</h1>
+            <p class="subtitle">Please check your inbox for instructions on how to reset the password</p>
+        
+            <section class="email-image">
+                <img src="/Icons/email.svg" alt="email Icon">
+            </section>
 
+            <button class="primary-button login-button">Login</button>
             
+
+            <p class="resend">
+                <span>Didn't receive the email?</span>
+                <a href="/">Resend</a>
+            </p>
         </div>
     </section>
 </body>
