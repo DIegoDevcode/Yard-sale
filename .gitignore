@@ -119,4 +119,5 @@ ipch/
 # TFS 2012 Local Workspace
 $tf/
 
-# .vscode
+#ignorar carpeta de .vscode
+* .vscode
