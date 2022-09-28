@@ -17,6 +17,11 @@ body{
 
 /*Estilos del navbar*/
 
+.inactive{
+    /* display: none; */
+    opacity: 0;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -96,6 +101,48 @@ nav{
 }
 
 /*Estilos del menu desktop*/
+.desktop-menu{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: var(--white);
+    width: 100px;
+    height: auto;
+    border: 1px solid var(--very-light-pink);
+    border-radius: 0 0 6px 6px;
+    padding: 20px 20px 0 20px;
+    background-color: var(--white);
+    transition: .6s;
+    box-shadow: 5px 5px 10px var(--very-light-pink);
+}
+
+.desktop-menu ul {
+  list-style: none;  
+  padding: 0;
+  margin: 0;
+}
+
+.desktop-menu ul li{
+    text-align: end;
+}
+
+.desktop-menu ul li:last-child{
+    padding-top: 20px;
+    border-top: 1px solid var(--very-light-pink);
+}
+
+.desktop-menu ul li:last-child a {
+    color: var(--hospital-green);
+    font-size: var(--sm);
+}
+
+
+.desktop-menu ul li a{
+    color: var(--black);
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
 
 
 @media(max-width: 640px) {
