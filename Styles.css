@@ -14,6 +14,9 @@ body{
     margin: 0;
     font-family: 'Quicksand', sans-serif;
 }
+
+/*Estilos del navbar*/
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -91,6 +94,10 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
+/*Estilos del menu desktop*/
+
+
 @media(max-width: 640px) {
     .menu{
         display: block;
