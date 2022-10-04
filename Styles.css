@@ -308,13 +308,13 @@ nav{
     margin-bottom: 4px;
   }
   #productDetail product-info p:nth-child(2) {
-    color: var(--very-light-pink);
+    color: var(--black);
     font-size: var(--md);
     margin-top: 0;
     margin-bottom: 36px;
   }
   #productDetail product-info p:nth-child(3) {
-    color: var(--very-light-pink);
+    color: var(--black);
     font-size: var(--sm);
     margin-top: 0;
     margin-bottom: 36px;
@@ -388,7 +388,7 @@ nav{
     font-size: var(--sm);
     margin-top: 0;
     margin-bottom: 0;
-    color: var(--very-light-pink);
+    color: var(--black);
 }
 
   
