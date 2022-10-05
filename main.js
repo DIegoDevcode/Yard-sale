@@ -147,7 +147,6 @@ productList.push({
   name: 'Audifonos',
   price: 120,
   image: 'https://media.istockphoto.com/photos/red-headphones-isolated-picture-id835148968?b=1&k=20&m=835148968&s=612x612&w=0&h=pkLH-lI3Y2RM72Nruj7nN8k2LZG85nFa_BrpnSUpqlA=',
-  Icon: './Icons/bt_add_to_cart.svg'
 });
 function renderProducts(arr) {
   for (product of arr) {
