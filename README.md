@@ -8,7 +8,7 @@ Este proyecto contiene:
 * Javascript  
 * en futuro tendra Reac.js
 
-# Authores
+# Autores
 * Diego -Diegodev
 
 # Licencia
